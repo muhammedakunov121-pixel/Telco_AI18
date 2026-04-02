@@ -21,8 +21,8 @@ tech_support = st.selectbox("Есть техподдержка", [0, 1])
 if st.button('Проверка'):
     data = {
         "tenure": int(tenure),
-        "MonthlyCharges": float(monthly_charges), # Заменил на float для точности
-        "TotalCharges": float(total_charges),     # Заменил на float
+        "MonthlyCharges": float(monthly_charges),
+        "TotalCharges": float(total_charges),
         "Contract_One_year": int(contract_1),
         "Contract_Two_year": int(contract_2),
         "InternetService_Fiber_optic": int(fiber),
